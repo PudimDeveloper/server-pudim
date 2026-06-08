@@ -1,0 +1,27 @@
+#titulo {
+  color: lightgreen;
+  text-shadow: 0 0 30px lightgreen;
+}
+body {
+  background-color: gray;
+  font-family: Arial;
+}
+#container {
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 20px black;
+}
+#botao {
+  color: red;
+}
+#atencao {
+  color: yellow;
+  text-shadow: 0 0 30px #b3b550fe;
+}
+::selection {
+  color: gray;
+  background-color: lightblue;
+}

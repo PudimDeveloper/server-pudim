@@ -1,0 +1,13 @@
+#container {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 15px 15px black, 0 5px 15px black;
+}
+body {
+  background-color: gray;
+}
+::selection {
+  background-color: #98989853;
+}

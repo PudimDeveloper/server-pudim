@@ -1,0 +1,42 @@
+body {
+  background-color: #bbbbbb;
+  font-family: Arial;
+}
+#container {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+ol {
+  text-align: left;
+}
+h1, h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+img {
+  margin: 25px;
+}
+#video {
+  border-radius: 10px;
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+#bob {
+  transform: scale(1.20);
+  padding: 40px;
+}
+.fix {
+  color: lightgreen;
+  text-shadow: 0 0 20px lightgreen, 0 0 10px lightgreen;
+}
+.add {
+  color: yellowgreen;
+  text-shadow: 0 0 20px yellowgreen, 0 0 10px yellowgreen;
+}
+.feito {
+  color: blue;
+  text-shadow: 0 0 20px blue, 0 0 10px blue;
+}

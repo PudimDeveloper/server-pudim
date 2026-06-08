@@ -1,0 +1,72 @@
+@keyframes destaque {
+  0% { 
+    color: #41ffa9;
+    text-shadow: 0 0 25px #41ffa9,
+    0 0 18px #41ffa9;
+  }
+  50% {
+    color: #b5ffde;
+    text-shadow: 0 0 25px #b5ffde;
+  }
+  100% { 
+    color: #41ffa9;
+    text-shadow: 0 0 25px #41ffa9,
+    0 0 18px #41ffa9;
+  }
+}
+
+@keyframes transicao {
+  from { transform: translateY(-50px); }
+  to { transform: translateY(0px); }
+}
+.destaque {
+  animation: 2s destaque infinite;
+  font-style: inherit;
+}
+@keyframes piscar{
+  0% { color: #b5ffde; }
+  25% { color: #e0ff10; }
+  50% { color: #d83800; }
+  80% { color: #d8008c; }
+  100% { color: #b5ffde; }
+}
+#container {
+  animation: 1s transicao;
+  
+  padding: 20px;
+  text-align: center;
+  border-radius: 28px;
+  background-color: white;
+  transition: 0.08s;
+}
+body {
+  /*background-color: #d0d0d0;*/
+  background-color: black;
+  cursor: progress;
+  font-family: Arial;
+}
+.button {
+  background-color: red;
+  padding: 9px;
+  border: 2px solid darkred;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  outline: none;
+  box-shadow: 0 5px 10px black;
+}
+::selection {
+  background-color: #bebebe36;
+}
+
+@keyframes destaque_fundo {
+  0% { background-color: #41ffa9; }
+  50% { background-color: #b5ffde; }
+  100% { background-color: #41ffa9; }
+}
+.destaque::selection {
+  animation: 2s destaque_fundo infinite;
+}
+#textbeta {
+  margin-top: 25px;
+}
