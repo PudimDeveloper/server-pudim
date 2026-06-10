@@ -7,6 +7,7 @@
 }
 body {
   background-color: gray;
+  font-family: Arial;
 }
 ::selection {
   background-color: #98989853;
